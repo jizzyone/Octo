@@ -30,7 +30,7 @@ export default {
         {
           id: 3,
           category: 'DEVELOPMENT',
-          image: '/sakura.jpg',
+          image: '/canon.jpg',
           author: 'Adam Sandler',
           title: 'Solutions for people like you',
           description: 'How can we help your technology and services business develop a revenue engine based'
