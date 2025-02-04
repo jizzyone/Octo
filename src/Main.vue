@@ -13,7 +13,7 @@ export default {
         {
           id: 1,
           category: 'MARKETING',
-          image: '/sakura.jpg',
+          image: '/Octo/sakura.jpg',
           author: 'Adam Sandler',
           title: 'Solutions for people like you',
           description: 'How can we help your technology and services business develop a revenue engine based',
@@ -22,7 +22,7 @@ export default {
         {
           id: 2,
           category: 'MARKETING',
-          image: '/sakura.jpg',
+          image: '/Octo/sakura.jpg',
           author: 'Adam Sandler',
           title: 'Solutions for people like you',
           description: 'How can we help your technology and services business develop a revenue engine based'
@@ -30,7 +30,7 @@ export default {
         {
           id: 3,
           category: 'DEVELOPMENT',
-          image: '/sakura.jpg',
+          image: '/Octo/sakura.jpg',
           author: 'Adam Sandler',
           title: 'Solutions for people like you',
           description: 'How can we help your technology and services business develop a revenue engine based'
@@ -38,7 +38,7 @@ export default {
         {
           id: 4,
           category: 'MARKETING',
-          image: '/sakura.jpg',
+          image: '/Octo/sakura.jpg',
           author: 'Adam Sandler',
           title: 'Solutions for people like you',
           description: 'How can we help your technology and services business develop a revenue engine based'
@@ -46,7 +46,7 @@ export default {
         {
           id: 5,
           category: 'DEVELOPMENT',
-          image: '/sakura.jpg',
+          image: '/Octo/sakura.jpg',
           author: 'Adam Sandler',
           title: 'Solutions for people like you',
           description: 'How can we help your technology and services business develop a revenue engine based'
@@ -54,7 +54,7 @@ export default {
         {
           id: 6,
           category: 'MARKETING',
-          image: '/sakura.jpg',
+          image: '/Octo/sakura.jpg',
           author: 'Adam Sandler',
           title: 'Solutions for people like you',
           description: 'How can we help your technology and services business develop a revenue engine based'
