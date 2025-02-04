@@ -13,7 +13,7 @@ export default {
         {
           id: 1,
           category: 'MARKETING',
-          image: '/Octo/sakura.jpg',
+          image: '/sakura.jpg',
           author: 'Adam Sandler',
           title: 'Solutions for people like you',
           description: 'How can we help your technology and services business develop a revenue engine based',
@@ -22,7 +22,7 @@ export default {
         {
           id: 2,
           category: 'MARKETING',
-          image: '/Octo/sakura.jpg',
+          image: '/sakura.jpg',
           author: 'Adam Sandler',
           title: 'Solutions for people like you',
           description: 'How can we help your technology and services business develop a revenue engine based'
@@ -30,7 +30,7 @@ export default {
         {
           id: 3,
           category: 'DEVELOPMENT',
-          image: '/Octo/sakura.jpg',
+          image: '/sakura.jpg',
           author: 'Adam Sandler',
           title: 'Solutions for people like you',
           description: 'How can we help your technology and services business develop a revenue engine based'
@@ -38,7 +38,7 @@ export default {
         {
           id: 4,
           category: 'MARKETING',
-          image: '/Octo/sakura.jpg',
+          image: '/sakura.jpg',
           author: 'Adam Sandler',
           title: 'Solutions for people like you',
           description: 'How can we help your technology and services business develop a revenue engine based'
@@ -46,7 +46,7 @@ export default {
         {
           id: 5,
           category: 'DEVELOPMENT',
-          image: '/Octo/sakura.jpg',
+          image: '/sakura.jpg',
           author: 'Adam Sandler',
           title: 'Solutions for people like you',
           description: 'How can we help your technology and services business develop a revenue engine based'
@@ -54,7 +54,7 @@ export default {
         {
           id: 6,
           category: 'MARKETING',
-          image: '/Octo/sakura.jpg',
+          image: '/sakura.jpg',
           author: 'Adam Sandler',
           title: 'Solutions for people like you',
           description: 'How can we help your technology and services business develop a revenue engine based'
@@ -93,9 +93,8 @@ export default {
 }
 </script>
 
-<!-- Main.vue -->
 <template>
-  <!-- Hero section -->
+  <!-- Верхний блок -->
   <div class="w-full h-48 md:h-56 lg:h-64 overflow-hidden relative">
     <img src="/sakura.jpg" alt="sakura" class="w-full h-full object-cover object-top">
     <div class="absolute inset-0 backdrop-blur-sm bg-black bg-opacity-30"></div>
@@ -104,7 +103,7 @@ export default {
     </h2>
   </div>
 
-  <!-- Grid section -->
+  <!-- Карточки -->
   <div class="flex justify-center px-4">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-12 w-full max-w-7xl">
       <template v-for="(item, index) in items" :key="item.id">
@@ -113,7 +112,7 @@ export default {
     </div>
   </div>
 
-  <!-- Black section -->
+  <!-- Черная секция -->
   <div class="flex flex-col lg:flex-row justify-between p-8 md:p-16 lg:p-24 bg-black gap-8">
     <div class="flex flex-col gap-6 max-w-2xl">
       <h3 class="text-4xl md:text-5xl lg:text-7xl text-cyan-500 font-semibold">Solutions for people like you</h3>
@@ -127,7 +126,7 @@ export default {
       <img src="/canon.jpg" alt="" class="w-full lg:w-auto">
     </div>
   </div>
-
+  <!-- Нижний слайдер -->
   <div class="slider-container relative mx-auto px-4 py-12 w-full max-w-7xl">
     <div class="overflow-hidden">
       <div class="flex transition-transform duration-500"
